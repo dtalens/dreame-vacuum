@@ -1,0 +1,3 @@
+files:
+  - source: /custom_components/dreame_vacuum/translations/en.json
+    translation: /custom_components/dreame_vacuum/translations/%two_letters_code%.json
