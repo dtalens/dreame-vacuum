@@ -62,7 +62,7 @@
         }
       },
       "reauth_confirm": {
-        "description": "La integració Dreame Vacuum ha de tornar a autenticar-se amb el teu compte per poder actualitzar els testimonis o afegir credencials al núvol.",
+        "description": "La integració Dreame Vacuum ha de tornar a autenticar-se amb el vostre compte per poder actualitzar els testimonis o afegir credencials al núvol.",
         "title": "Torna a autenticar la integració"
       }
     }
@@ -274,13 +274,13 @@
           "water_check": "Verificant aigua",
           "clean_add_water": "Netejant i afegint aigua",
           "washing_paused": "Neteja pausada",
-          "auto_emptying": "Buitat automàtic",
+          "auto_emptying": "Buidatge automàtic",
           "remote_control": "Control remot",
           "smart_charging": "Càrrega intel·ligent",
           "second_cleaning": "Segona neteja",
           "human_following": "Seguint humà",
           "spot_cleaning": "Netejant punt",
-          "returning_auto_empty": "Tornant a Buitat automàtic",
+          "returning_auto_empty": "Tornant per al buidatge automàtic",
           "waiting_for_task": "Esperant tasca",
           "station_cleaning": "Neteja d'estació",
           "returning_to_drain": "Tornant a buidar",
@@ -288,7 +288,7 @@
           "auto_water_draining": "Buidatge automàtic d'aigua",
           "shortcut": "Drecera",
           "monitoring": "Monitorant",
-          "monitoring_paused": "Monitorització pausada"
+          "monitoring_paused": "Monitoratge pausat"
         }
       },
       "status": {
@@ -303,7 +303,7 @@
           "charging": "Carregant",
           "ota": "OTA",
           "fct": "FCT",
-          "wifi_set": "Connexió WiFi configurada",
+          "wifi_set": "Connexió wifi configurada",
           "power_off": "Apagat",
           "factory": "Fàbrica",
           "error": "Error",
@@ -314,7 +314,7 @@
           "standby": "En espera",
           "room_cleaning": "Neteja d'habitació",
           "zone_cleaning": "Neteja zonificada",
-          "fast_mapping": "Mappatge ràpid",
+          "fast_mapping": "Mapatge ràpid",
           "cruising_path": "Creuant per camí",
           "cruising_point": "Creuant a un punt",
           "summon_clean": "Invocació de neteja",
@@ -331,18 +331,18 @@
           "zone_cleaning": "Neteja zonificada",
           "room_cleaning": "Neteja d'habitació",
           "spot_cleaning": "Netejant punt",
-          "fast_mapping": "Mappatge ràpid",
+          "fast_mapping": "Mapatge ràpid",
           "cleaning_paused": "Neteja pausada",
           "room_cleaning_paused": "Neteja d'habitació pausada",
           "zone_cleaning_paused": "Neteja zonificada pausada",
           "spot_cleaning_paused": "Neteja de punts pausada",
           "map_cleaning_paused": "Neteja de mapa pausada",
-          "docking_paused": "Encaratge pausat",
+          "docking_paused": "Acoblament pausat",
           "mopping_paused": "Fregar pausat",
           "zone_mopping_paused": "Fregar zonificat pausat",
           "room_mopping_paused": "Fregar d'habitació pausat",
-          "zone_docking_paused": "Encaratge zonificat pausat",
-          "room_docking_paused": "Encaratge d'habitació pausat",
+          "zone_docking_paused": "Acoblament zonificat pausat",
+          "room_docking_paused": "Acoblament d'habitació pausat",
           "cruising_path": "Creuant per camí",
           "cruising_path_paused": "Creuant per camí pausat",
           "cruising_point": "Creuant a un punt",
@@ -427,7 +427,7 @@
           "left_magnet": "Error del sensor magnètic esquerre",
           "right_magnet": "Error del sensor magnètic dret",
           "flow_error": "Error del sensor de flux",
-          "infrared_fault": "Error d'infrared",
+          "infrared_fault": "Error al sensor infraroig",
           "camera_fault": "Error de càmera",
           "strong_magnet": "S'ha detectat un camp magnètic fort",
           "water_pump": "Error de bomba d'aigua",
@@ -509,7 +509,7 @@
           "no_warning": "Sense advertències",
           "no_water_left_dismiss": "Si us plau, comprova el dipòsit d'aigua neta.",
           "no_water_left": "L'aigua del dipòsit d'aigua neta està a punt d'acabar-se. Comprova i omple el dipòsit d'aigua neta ràpidament.",
-          "no_water_left_after_clean": "La mopa ha estat netejada. S'ha detectat que l'aigua del dipòsit d'aigua neta és insuficient, si us plau, omple el dipòsit d'aigua neta i buida el dipòsit d'aigua usada.",
+          "no_water_left_after_clean": "La mopa s'ha rentat. S'ha detectat que l'aigua del dipòsit d'aigua neta és insuficient, si us plau, ompliu el dipòsit d'aigua neta i buideu el dipòsit d'aigua bruta.",
           "no_water_for_clean": "Baix nivell d'aigua al dipòsit d'aigua neta. El robot ha canviat al mode només aspiració.",
           "low_water": "L'aigua està a punt d'acabar-se. Si us plau, omple el dipòsit d'aigua neta.",
           "tank_not_installed": "El dipòsit d'aigua neta no està instal·lat."
@@ -623,8 +623,8 @@
       }
     },
     "vacuum_goto": {
-      "name": "Vés A",
-      "description": "Vés a la coordenada del mapa i atura't.",
+      "name": "Ves a",
+      "description": "Ves a la coordenada del mapa i atura't.",
       "fields": {
         "x": {
           "name": "X",
@@ -670,7 +670,7 @@
         },
         "url": {
           "name": "URL",
-          "description": "Url d'aquest paquet hauria de ser accessible pel robot aspirador."
+          "description": "L'Url d'aquest paquet hauria de ser accessible pel robot aspirador."
         },
         "md5": {
           "name": "MD5",
@@ -761,8 +761,8 @@
           "description": "ID del mapa a restaurar."
         },
         "file_url": {
-          "name": "Url del Fitxer",
-          "description": "Url del fitxer desat bz2.gz o tar.gz"
+          "name": "Url del fitxer",
+          "description": "Url del fitxer desat com a bz2.gz o tar.gz"
         }
       }
     },
@@ -926,49 +926,49 @@
     },
     "vacuum_set_predefined_points": {
       "name": "Estableix Punts Predefinits",
-      "description": "Define predefined coordinates on current map. (Only supported on vacuums with camera)",
+      "description": "Definiu les coordenades predefinides al mapa actual. (Només és compatible amb aspiradores amb càmera)",
       "fields": {
         "points": {
           "name": "Punts",
-          "description": "List of coordinates to be saved."
+          "description": "Llista de coordenades a desar."
         }
       }
     },
     "vacuum_set_obstacle_ignore": {
-      "name": "Set Obstacle Ignore",
-      "description": "Set ignore status of an obstacle. (Only supported on vacuums with AI Obstacle detection feature)",
+      "name": "Estableix ignorar obstacles",
+      "description": "Estableix l'estat per a ignorar obstacles. (Només és compatible amb aspiradores amb funció de detecció d'obstacles IA)",
       "fields": {
         "x": {
           "name": "X",
-          "description": "X Coordinate of the obstacle."
+          "description": "Coordenada de l'obstacle X."
         },
         "y": {
           "name": "Y",
-          "description": "Y Coordinate of the obstacle."
+          "description": "Coordenada de l'obstacle Y."
         },
         "obstacle_ignored": {
-          "name": "Obstacle Ignored",
-          "description": "Obstacle is ignored or not."
+          "name": "Obstacle ignorat",
+          "description": "L'obstacle s'ignora o no."
         }
       }
     },
     "vacuum_set_router_position": {
-      "name": "Set router position",
-      "description": "Set router position on current map. (Only supported on vacuums with WiFi map feature)",
+      "name": "Estableix la posició de la ruta",
+      "description": "Estableix la posició de la ruta al mapa actual. (Només és compatible amb aspiradores amb funció de mapa wifi)",
       "fields": {
         "x": {
           "name": "X",
-          "description": "X Coordinate of the router."
+          "description": "Coordenada de la ruta X."
         },
         "y": {
           "name": "Y",
-          "description": "Y Coordinate of the router."
+          "description": "Coordenada de la ruta Y."
         }
       }
     },
     "select_select_previous": {
-      "name": "Select Previous",
-      "description": "Select the previous options of an select entity.",
+      "name": "Seleccioneu l'anterior",
+      "description": "Seleccioneu l'opció anterior de l'entitat seleccionada.",
       "fields": {
         "cycle": {
           "name": "Cicle",
@@ -986,7 +986,7 @@
     },
     "select_select_next": {
       "name": "Seleccioneu el següent",
-      "description": "Seleccioneu la opció següent de la entitat seleccionada.",
+      "description": "Seleccioneu l'opció següent de l'entitat seleccionada.",
       "fields": {
         "cycle": {
           "name": "Cicle",
