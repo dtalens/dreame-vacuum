@@ -25,7 +25,7 @@
           "host": "Amfitrió",
           "token": "Testimoni"
         },
-        "description": "Necessitaràs la clau API de 32 caràcters, consulta les instruccions a https://www.home-assistant.io/integrations/xiaomi_miio#retrieving-the-access-token."
+        "description": "Necessitareu la clau API de 32 caràcters, consulteu les instruccions a https://www.home-assistant.io/integrations/xiaomi_miio#retrieving-the-access-token."
       },
       "mi": {
         "data": {
@@ -637,7 +637,7 @@
       }
     },
     "vacuum_follow_path": {
-      "name": "Segueix El Camí",
+      "name": "Segueix el Camí",
       "description": "Segueix la llista de coordenades al mapa i retorna a la base. (Només compatible amb aspiradores amb càmera)",
       "fields": {
         "points": {
@@ -651,7 +651,7 @@
       "description": "Controlar remotament moure l'aspirador un pas.",
       "fields": {
         "rotation": {
-          "name": "Rotació.",
+          "name": "Rotació",
           "description": "Gira en graus binaris entre -128 i 128."
         },
         "velocity": {
@@ -929,7 +929,7 @@
       "description": "Define predefined coordinates on current map. (Only supported on vacuums with camera)",
       "fields": {
         "points": {
-          "name": "Points",
+          "name": "Punts",
           "description": "List of coordinates to be saved."
         }
       }
@@ -977,16 +977,16 @@
       }
     },
     "select_select_first": {
-      "name": "Select First",
-      "description": "Select the first option of an select entity."
+      "name": "Seleccioneu el primer",
+      "description": "Seleccioneu la primera opció de l'entitat seleccionada."
     },
     "select_select_last": {
-      "name": "Select Last",
-      "description": "Select the last option of an select entity."
+      "name": "Seleccioneu l'últim",
+      "description": "Seleccioneu l'última opció de l'entitat seleccionada."
     },
     "select_select_next": {
-      "name": "Select Next",
-      "description": "Select the next options of an select entity.",
+      "name": "Seleccioneu el següent",
+      "description": "Seleccioneu la opció següent de la entitat seleccionada.",
       "fields": {
         "cycle": {
           "name": "Cicle",
